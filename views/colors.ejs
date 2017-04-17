@@ -1,0 +1,16 @@
+<h2>All of the colors</h2>
+<br>
+
+<% colors.forEach((oneColor)=>{%>
+
+  <div class='col-md-4'>
+    <div class='row' style="background-color: <%=oneColor.hex%>">
+    </div>
+    <div>
+      Name: <%= oneColor.keyword%> <br>
+       Hex: <%= oneColor.hex%> <br>
+       Category: <%= oneColor.category%>
+    </div>
+    <br>
+  </div>
+  <%});%>

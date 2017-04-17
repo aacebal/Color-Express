@@ -1,0 +1,38 @@
+li{
+  height: 40px;
+  width: 40px;
+  padding: 40px;
+  display: inline;
+  Color:
+}
+
+p{
+  font-size: 20px;
+
+}
+.home{
+  border-radius: 10px;
+  border: 2px solid black;
+  width:auto;
+  height:auto;
+  background-color: #d7e8f2;
+
+}
+.row{
+  border-radius: 10px;
+  border: 1px solid black;
+  width:110px;
+  height:100px;
+}
+
+h1,h2{
+  font-size: 60px;
+}
+a{
+  color:  #00A99D;
+  font-size: 15px;
+}
+
+footer{
+font-size: 30px;
+}
