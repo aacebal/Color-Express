@@ -1,15 +1,25 @@
 <% randomColor = colors[Math.floor(Math.random() * (colors.length - 0)) + 0] %>
 
-<h2 style="color:<%= randomColor.hex %>;">Random Color	</h2>
+<h2 style="color:<%= randomColor.hex %>;">Random Color    </h2>
 <br>
 
 
+<div class="random">
+ <br>
 <div class="col-md-4">
+ <center>
 
-    <div class = 'row random-color' style="background-color:<%= randomColor.hex %>"></div>
+   <div class = 'row random-color' style="background-color:<%= randomColor.hex %>"></div>
 
-    <div>
-      Name: <%= randomColor.keyword%> <br>
-      Hex: <%= randomColor.hex%> <br>
-      Category: <%= randomColor.category%> <br>
-    </div>
+   <div>
+     Name: <%= randomColor.keyword%> <br>
+     Hex: <%= randomColor.hex%> <br>
+     Category: <%= randomColor.category%> <br>
+
+     <a class = "btn" href = "/random"> Pick a Random color 😊 </a>
+
+   </div>
+     </center>
+   </div>
+
+   <br>
